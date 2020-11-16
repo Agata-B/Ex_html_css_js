@@ -1,0 +1,19 @@
+.headline {
+    color: blue;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.link{
+    border-width: medium;
+    border-style: groove;
+    text-align: center;
+    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.image {
+    object-fit: contain;
+}

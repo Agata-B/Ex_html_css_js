@@ -31,5 +31,30 @@ border-bottom-right-radius: 20px;
 }
 
 .concent__link {
-   float: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.concent__link--sample{
+    border-width: medium;
+    border-style: groove;
+    text-align: center;
+    background-color: salmon;
+    width: 300px;
+    
+}
+.concent__link :hover{
+    background: springgreen;
+}
+
+.concent__conteiner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#button {
+    border-width: medium;
+    border-style: groove;
+    text-align: center;
+    background-color: salmon;
 }
