@@ -1,0 +1,60 @@
+.headline {
+    color: blueviolet;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+}
+
+.concent{
+border-width: medium;
+border-style: groove;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+
+}
+
+.concent__headline {
+    color: rgb(24, 168, 24);
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+}
+
+.concent__paragraph--1{
+    color: hotpink;
+}
+
+.concent__paragraph--2{
+    color: blue;
+}
+
+.concent__link {
+    display: flex;
+    flex-direction: column;
+}
+
+.concent__link--sample{
+    border-width: medium;
+    border-style: groove;
+    text-align: center;
+    background-color: salmon;
+    width: 300px;
+    
+}
+.concent__link :hover{
+    background: springgreen;
+}
+
+.concent__conteiner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#button {
+    border-width: medium;
+    border-style: groove;
+    text-align: center;
+    background-color: salmon;
+}

@@ -5,50 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 
 </head>
 
 <body>
-    <header>
+    <header class="headline">
         <h1>Hello World !</h1>
     </header>
-    <main>
-        <h2>Witaj Świecie !</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at tortor eget libero vestibulum sagittis. Class
+    <main class="concent">
+        <h2 class="concent__headline">Witaj Świecie !</h2>
+        <p class="concent__paragraph--1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at tortor eget libero
+            vestibulum sagittis. Class
             aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris et massa nec
             tortor viverra suscipit non vel metus. Nullam sagittis vel eros a hendrerit. Aliquam suscipit metus ante.
             Morbi vehicula consequat lacus a mollis. Nulla facilisi. Morbi lacinia purus et nisl suscipit tincidunt.
             Suspendisse potenti.
         </p>
 
-        <p>Nunc ut ligula vitae est scelerisque posuere. Sed sollicitudin diam a elit lobortis, mollis vestibulum mi
+        <p class="concent__paragraph--2">Nunc ut ligula vitae est scelerisque posuere. Sed sollicitudin diam a elit
+            lobortis, mollis vestibulum mi
             vulputate. Sed semper lectus a ex tristique blandit. Nullam a eleifend elit. Donec ultrices nisi et ipsum
             tristique, a suscipit sapien tincidunt. Duis feugiat felis a purus gravida bibendum. Mauris euismod velit
             vitae aliquet volutpat. Duis et venenatis mi. Sed mauris leo, consectetur sit amet ex id, imperdiet
             tincidunt urna.</p>
 
-        <div>
-            <a target="_blank" href="https://www.google.pl">Google</a>
-        </div>
-        <div><a target="_blank" href="https://www.onet.pl/">Onet</a>
-        </div>
-        <div><a target="_blank" href="about.html">Go to "about"</a>
-        </div>
+        <nav class="concent__link">
+            <a class="concent__link--sample" target="_blank" href="https://www.google.pl">Google</a>
+            <a class="concent__link--sample" target="_blank" href="https://www.onet.pl/">Onet</a>
+            <a class="concent__link--sample" target="_blank" href="about.html">Go to "about"</a>
+        </nav>
 
-        <div>
-            <ol>
+        <div class="concent__conteiner">
+            <ol class="concent__conteiner--ol__list">
                 <li>list item 1</li>
                 <li>list item 2</li>
             </ol>
 
-            <ul>
+            <ul class="concent__conteiner--ul__list">
                 <li>list item 1</li>
                 <li>list item 2</li>
             </ul>
         </div>
 
-        <div>
-            <button>OK</button>
+        <div class="concent__conteiner--button">
+            <button id="button">OK</button>
 
             <input type="text">
         </div>
